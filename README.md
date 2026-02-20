@@ -1,162 +1,186 @@
 # Reliance Infrastructure Canon
 
-**Canonical Repository for the MW Infrastructure Stack**
+**39 Constitutional Documents for Institutional-Grade Governance**
 
-39 constitutional documents governing institutional-grade infrastructure for governance, compliance, evidence admissibility, and operational standards.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18707171.svg)](https://doi.org/10.5281/zenodo.18707171)
+[![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/)
 
 ---
 
 ## Overview
 
-The MW Infrastructure Stack is a deterministic, document-bound governance framework designed for institutional reliance. All authority flows through canonical documents — not human discretion. The system operates with complete founder irrelevance: identical inputs produce identical outputs regardless of who administers the infrastructure.
+The Reliance Infrastructure Canon is a complete constitutional framework providing deterministic, document-bound governance for institutional operations. Every decision, certification, and compliance determination follows binary (YES/NO) logic with identical inputs producing identical outputs — regardless of who operates the system.
 
-**Total Documents:** 39  
-**Stack Version:** v2.0.0 (MW Canon at v2.1.0)  
-**Hash Algorithm:** SHA3-512  
-**License:** CC BY-ND 4.0  
-**Canonical Repository:** github.com/reliance-infrastructure/reliance-infrastructure-canon  
-**Academic Archive:** Zenodo (DOI pending)
-
----
-
-## Repository Structure
-
-```
-reliance-infrastructure-canon/
-├── documents/
-│   ├── 01-constitutional-authorities/   # Documents 1-9: Supreme law & authority constitutions
-│   ├── 02-operational-protocols/        # Documents 10-23: Operational authority constitutions
-│   ├── 03-legal-instruments/            # Documents 24-31: Specifications & protocols
-│   └── 04-interface-packs/              # Documents 32-39: Exchange & resolution systems
-├── verification/
-│   ├── hashes.json                      # SHA3-512 hashes for all 39 documents
-│   └── master-index.json               # DOC-000: Infrastructure Master Index
-├── metadata/
-│   ├── changelog.md                     # Version history
-│   └── zenodo-metadata.json            # Zenodo upload metadata
-├── LICENSE                              # CC BY-ND 4.0
-└── README.md                            # This file
-```
+**Issuing Entity**: Reliance Infrastructure Holdings LLC  
+**License**: CC BY-ND 4.0 (Attribution, No Derivatives)  
+**Hash Algorithm**: SHA3-512  
+**Signing Algorithm**: Ed25519  
+**Status**: RUN-ONLY (no modifications permitted outside amendment protocol)
 
 ---
 
 ## Document Hierarchy
 
 ### Layer 0 — Supreme Constitutional Authority
-| ID | Title |
-|---|---|
-| DOC-001 | MW Canon (MW-Ω⁺⁺⁺⁺⁺) |
+| ID | Document | Version |
+|----|----------|---------|
+| DOC-001 | MW Canon (MW-Ω⁺⁺⁺⁺⁺) | 2.1.0 |
 
 ### Layer 1 — Structural Charters
-| ID | Title |
-|---|---|
-| DOC-002 | Layer Architecture & Non-Escalation Charter |
-| DOC-003 | Determinism & Run-Only Enforcement Law |
+| ID | Document | Version |
+|----|----------|---------|
+| DOC-002 | Layer Architecture & Non-Escalation Charter | 2.0.0 |
+| DOC-003 | Determinism & Run-Only Enforcement Law | 2.0.0 |
 
 ### Layer 2 — Operational Charters
-| ID | Title |
-|---|---|
-| DOC-004 | Issuance & Decision Admissibility Charter |
-| DOC-005 | Pricing & Fee Primitives Charter |
-| DOC-006 | External Non-Advice & Safe-Interface Clause |
+| ID | Document | Version |
+|----|----------|---------|
+| DOC-004 | Issuance & Decision Admissibility Charter | 2.0.0 |
+| DOC-005 | Pricing & Fee Primitives Charter | 2.0.0 |
+| DOC-006 | External Non-Advice & Safe-Interface Clause | 2.0.0 |
 
 ### Layer 3 — Authority Constitutions
-| ID | Title | Authority |
-|---|---|---|
-| DOC-007 | IRUA Constitution | Institutional Reliance & Usage Authority |
-| DOC-008 | GEAA Constitution | Global Evidence Admissibility Authority |
-| DOC-009 | CivicHab Constitution | Civic Habitat Authority |
-| DOC-010 | GCPA Constitution | Global Capital & Portfolio Authority |
-| DOC-011 | PMOA Constitution | Personal Mastery & Optimization Authority |
-| DOC-012 | EWA Constitution | Eternal Works Authority |
-| DOC-013 | EPA Constitution | Eternal Publishing Authority |
-| DOC-014 | EFAA Constitution | Eternal Fine Art Authority |
-| DOC-015 | UPDIUD Constitution | Universal Private DIUD Cell Ecosystem |
-| DOC-016 | SICA Constitution | Standards Issuance & Custody Authority |
-| DOC-017 | IATA Constitution | Independent Arbitration & Tribunals Authority |
-| DOC-018 | DRFA Constitution | Dispute Resolution Finality Authority |
-| DOC-019 | CRTA Constitution | Crisis Response & Transition Authority |
-| DOC-020 | IPPA Constitution | Intellectual Property Permanence Authority |
-| DOC-021 | CSCA Constitution | Contractual Succession Continuity Authority |
-| DOC-022 | DCPA Constitution | Data Custody Perpetuity Authority |
-| DOC-023 | FAPA Constitution | Foundational Assets Permanence Authority |
-| DOC-032 | GCRA Constitution | Global Capital Reliance Authority |
+| ID | Document | Version |
+|----|----------|---------|
+| DOC-007 | IRUA — Institutional Reliance & Usage Authority | 2.0.0 |
+| DOC-008 | GEAA — Global Evidence Admissibility Authority | 2.0.0 |
+| DOC-009 | CivicHab — Civic Habitat Authority | 2.0.0 |
+| DOC-010 | GCPA — Global Capital & Portfolio Authority | 2.0.0 |
+| DOC-011 | PMOA — Personal Mastery & Optimization Authority | 2.0.0 |
+| DOC-012 | EWA — Eternal Works Authority | 2.0.0 |
+| DOC-013 | EPA — Eternal Publishing Authority | 2.0.0 |
+| DOC-014 | EFAA — Eternal Fine Art Authority | 2.0.0 |
+| DOC-015 | UPDIUD — Universal Private DIUD Cell Ecosystem | 2.0.0 |
+| DOC-016 | SICA — Standards Issuance & Custody Authority | 2.0.0 |
+| DOC-017 | IATA — Independent Arbitration & Tribunals Authority | 2.0.0 |
+| DOC-018 | DRFA — Dispute Resolution Finality Authority | 2.0.0 |
+| DOC-019 | CRTA — Crisis Response & Transition Authority | 2.0.0 |
+| DOC-020 | IPPA — Intellectual Property Permanence Authority | 2.0.0 |
+| DOC-021 | CSCA — Contractual Succession Continuity Authority | 2.0.0 |
+| DOC-022 | DCPA — Data Custody Perpetuity Authority | 2.0.0 |
+| DOC-023 | FAPA — Foundational Assets Permanence Authority | 2.0.0 |
+| DOC-032 | GCRA — Global Capital Reliance Authority | 2.0.0 |
 
 ### Layer 4 — Specifications & Protocols
-| ID | Title |
-|---|---|
-| DOC-024 | Issuance Primitives Specification (IPS) |
-| DOC-025 | Binary Decision Trees Master (BDTM) |
-| DOC-026 | Artifact Formatting, ID & Hashing Standard (AFIHS) |
-| DOC-027 | Custody & Chain-of-Custody Protocol (CCOCP) |
-| DOC-028 | Registry Architecture Specification (RAS) |
-| DOC-029 | Multi-Jurisdiction Mirroring Protocol (MJMP) |
-| DOC-030 | Succession & Continuity Transfer Protocol (SCTP) |
-| DOC-031 | Citation Authenticity Protocol (CAP) |
-| DOC-033 | Reliance Infrastructure Exchange (RIX) |
-| DOC-034 | Reliance Ordering Doctrine (ROD) |
-| DOC-035 | Cross-Authority Conflict Avoidance Protocol (CACAP) |
-| DOC-036 | Collision Resolution Matrix (CRM) |
-| DOC-037 | Pre-Reliance Preparation Matrix (PRPM) |
-| DOC-038 | Binary Gates & Dormancy Protocol (BGDP) |
-| DOC-039 | Execution Bridge Protocol (EBP) |
+| ID | Document | Version |
+|----|----------|---------|
+| DOC-024 | Issuance Primitives Specification (IPS) | 2.0.0 |
+| DOC-025 | Binary Decision Trees Master (BDTM) | 2.0.0 |
+| DOC-026 | Artifact Formatting, ID & Hashing Standard (AFIHS) | 2.0.0 |
+| DOC-027 | Custody & Chain-of-Custody Protocol (CCOCP) | 2.0.0 |
+| DOC-028 | Registry Architecture Specification (RAS) | 2.0.0 |
+| DOC-029 | Multi-Jurisdiction Mirroring Protocol (MJMP) | 2.0.0 |
+| DOC-030 | Succession & Continuity Transfer Protocol (SCTP) | 2.0.0 |
+| DOC-031 | Citation Authenticity Protocol (CAP) | 2.0.0 |
+| DOC-033 | Reliance Infrastructure Exchange (RIX) | 2.0.0 |
+| DOC-034 | Reliance Ordering Doctrine (ROD) | 2.0.0 |
+| DOC-035 | Cross-Authority Conflict Avoidance Protocol (CACAP) | 2.0.0 |
+| DOC-036 | Collision Resolution Matrix (CRM) | 2.0.0 |
+| DOC-037 | Pre-Reliance Preparation Matrix (PRPM) | 2.0.0 |
+| DOC-038 | Binary Gates & Dormancy Protocol (BGDP) | 2.0.0 |
+| DOC-039 | Execution Bridge Protocol (EBP) | 2.0.0 |
 
 ---
 
 ## Verification
 
-All documents are hashed using SHA3-512. To verify document integrity:
+### SHA3-512 Hash Verification
+
+Every document's integrity can be independently verified:
 
 ```bash
-# Verify a single document
-python3 -c "
-import hashlib, sys
-with open(sys.argv[1], 'rb') as f:
-    print(hashlib.sha3_512(f.read()).hexdigest())
-" documents/01-constitutional-authorities/DOC-001_MW-CANON_v2.1.0.txt
+# Linux/Mac
+sha3sum -a 512 documents/constitutions/DOC-007_IRUA_CONSTITUTION_v2.0.txt
 
 # Compare against verification/hashes.json
+python3 -c "
+import hashlib, json
+with open('verification/hashes.json') as f:
+    hashes = json.load(f)
+with open('documents/constitutions/DOC-007_IRUA_CONSTITUTION_v2.0.txt', 'rb') as f:
+    actual = hashlib.sha3_512(f.read()).hexdigest()
+expected = hashes.get('DOC-007_IRUA_CONSTITUTION_v2.0.txt', 'NOT FOUND')
+print('MATCH' if actual == expected else 'MISMATCH')
+"
 ```
 
-The Master Index (`verification/master-index.json`) contains the authoritative hash for each document. Any hash mismatch indicates corruption or tampering.
+### Ed25519 Signature Verification
+
+Documents are signed with Ed25519 per AFIHS §XI:
+
+```python
+from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PublicKey
+from cryptography.hazmat.primitives import serialization
+import json, base64
+
+# Load public key
+with open('verification/reliance-signing-key.pub', 'rb') as f:
+    pub_key = serialization.load_pem_public_key(f.read())
+
+# Load signatures
+with open('verification/signatures.json') as f:
+    sigs = json.load(f)
+
+# Verify a document
+doc = 'DOC-007_IRUA_CONSTITUTION_v2.0.txt'
+sig_b64 = sigs['documents'][doc]['ed25519_signature']
+hash_val = sigs['documents'][doc]['sha3_512']
+
+try:
+    pub_key.verify(base64.b64decode(sig_b64), hash_val.encode('utf-8'))
+    print(f'{doc}: VERIFIED')
+except Exception:
+    print(f'{doc}: FAILED')
+```
+
+### Blockchain Attestation
+
+Three-chain attestation per SICA §3.1:
+
+| Chain | Method | Status |
+|-------|--------|--------|
+| Bitcoin | OpenTimestamps (`verification/master-index.json.ots`) | Confirmed |
+| Ethereum | Attestation transaction (see `verification/blockchain-records.json`) | Confirmed |
+| Arweave | Permanent storage (see `verification/blockchain-records.json`) | Confirmed |
+
+Verification details in `verification/blockchain-records.json`.
 
 ---
 
-## Licensing
+## Conflict Resolution Hierarchy
 
-Documents are issued under **CC BY-ND 4.0** (Attribution, No Derivatives).
+When documents conflict, higher-layer documents prevail:
 
-Institutional licensing for reliance, certification, and compliance use is available through the Institutional Reliance & Usage Authority (IRUA). See DOC-007 for licensing terms.
-
----
-
-## Archive Infrastructure
-
-| Tier | Platform | Purpose |
-|---|---|---|
-| Tier 1 | GitHub (github.com/reliance-infrastructure/reliance-infrastructure-canon) | Primary canonical repository |
-| Tier 2 | Zenodo (zenodo.org/communities/reliance-infrastructure) | Academic archival with DOI |
-| Tier 3 | Jurisdictional Mirrors | Geographic redundancy (activated post-licensing) |
+1. **MW Canon** (DOC-001) — Supreme, overrides all
+2. **Structural Charters** (DOC-002, DOC-003) — Override operational and below
+3. **Operational Charters** (DOC-004 through DOC-006) — Override authority-level
+4. **Authority Constitutions** (DOC-007 through DOC-023, DOC-032) — Override specifications
+5. **Specifications & Protocols** (DOC-024 through DOC-031, DOC-033 through DOC-039) — Operational
 
 ---
 
-## Conflict Hierarchy
+## Academic Citation
 
-In case of conflict between documents, the following hierarchy applies:
-
-1. **MW Canon** (DOC-001) — Supreme
-2. **Layer Architecture Charter** (DOC-002) — Jurisdictional
-3. **Authority Constitutions** (DOC-007 through DOC-023, DOC-032) — Operational
-4. **Specifications & Protocols** (DOC-024 through DOC-039) — Technical
-
-Higher-level documents prevail in all conflicts.
-
----
-
-## Immutability
-
-This repository operates under **Run-Only** governance per DOC-003 (Determinism & Run-Only Enforcement Law). Documents in RUN-ONLY status cannot be modified, only superseded by new versions through the formal amendment process defined in each authority's constitution.
+```bibtex
+@misc{reliance_infrastructure_canon_2025,
+  author       = {{Reliance Infrastructure Holdings LLC}},
+  title        = {Reliance Infrastructure Canon — 39-Document Canonical Stack},
+  year         = 2025,
+  version      = {2.0.0},
+  doi          = {10.5281/zenodo.18707171},
+  url          = {https://doi.org/10.5281/zenodo.18707171},
+  note         = {CC BY-ND 4.0. SHA3-512 verified. Document-bound governance.}
+}
+```
 
 ---
 
-*Issued by Reliance Infrastructure Holdings LLC. Document-bound. Founder-irrelevant.*
+## Immutability Statement
+
+These documents are issued under **Run-Only governance** (DOC-003). No modifications, derivatives, translations, or adaptations are permitted without formal amendment per the constitutional amendment protocol specified in each authority's constitution. Hash verification proves document authenticity regardless of source.
+
+This repository is the **primary canonical archive** (Tier 1 per IRUA §3.3). Zenodo (DOI: 10.5281/zenodo.18707171) serves as the independent academic archive (Tier 2). Blockchain attestation provides immutable timestamp proof (Tier 3).
+
+---
+
+**Document-Bound. Founder-Irrelevant. Deterministic.**

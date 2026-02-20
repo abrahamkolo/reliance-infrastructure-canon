@@ -1,26 +1,24 @@
-# Changelog
+# Changelog — Reliance Infrastructure Canon
 
-All notable changes to the MW Infrastructure Stack canonical documents.
-
-## [2.0.0] — 2025-02-20
+## v2.0.0 (2026-02-20)
 
 ### Initial Canonical Release
-- All 39 documents upgraded to 100/100 institutional grade
-- SHA3-512 cryptographic hashing implemented across full stack
-- Complete founder-irrelevance remediation applied to all documents
-- Infrastructure Master Index (DOC-000) generated
-- Repository structure finalized per IRUA Archive Infrastructure spec (§3.3)
+- All 39 documents at institutional-grade (100/100)
+- MW Canon (DOC-001) at v2.1.0; all others at v2.0.0
+- SHA3-512 cryptographic verification for all documents
+- Ed25519 digital signatures for all documents
+- OpenTimestamps Bitcoin attestation
+- GitHub canonical hosting with branch protection
+- Zenodo academic archival (DOI: 10.5281/zenodo.18707171)
+- CC BY-ND 4.0 licensing
+- Complete founder irrelevance achieved
 
-### Documents Released
-- DOC-001: MW Canon v2.1.0 (Supreme Constitutional Authority)
-- DOC-002 through DOC-039: v2.0.0 (All categories)
-
-### Verification
-- Algorithm: SHA3-512
-- Total stack size: 2,286,061 bytes
-- All hashes recorded in verification/hashes.json
-- Master Index: verification/master-index.json
-
----
-
-*Format: [Semantic Versioning](https://semver.org/)*
+### Infrastructure
+- Ed25519 signing key: `verification/reliance-signing-key.pub`
+- Hashes: `verification/hashes.json` (SHA3-512)
+- Signatures: `verification/signatures.json`
+- Master Index: `verification/master-index.json`
+- Blockchain attestation: `verification/blockchain-records.json`
+- Independent verification: `verification/verify-canon.py`
+- Automated backup: `.github/workflows/backup.yml`
+- Automated Zenodo sync: `.github/workflows/zenodo-sync.yml`
