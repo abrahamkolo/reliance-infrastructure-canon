@@ -1,0 +1,35 @@
+{
+  "attestation_standard": "SICA Constitution \u00a73.1 Tier 3 \u2014 Three-Chain Blockchain Registry",
+  "attested_artifact": "verification/master-index.json",
+  "attested_hash_algorithm": "SHA3-512",
+  "attested_hash": "0ca568c904cb098cd33466d796b50cb7384952535a1684553d3377eb1b05b5e42f482740936d833b15d6e0335bb62ac84299f0a5c704f8360faa5a743d1e47df",
+  "signing_entity": "Reliance Infrastructure Holdings LLC",
+  "chains": {
+    "bitcoin": {
+      "method": "OpenTimestamps",
+      "proof_file": "verification/master-index.json.ots",
+      "status": "SUBMITTED \u2014 pending Bitcoin block confirmation",
+      "notes": "Verify with ots-cli: ots verify master-index.json.ots"
+    },
+    "ethereum": {
+      "method": "PENDING \u2014 requires wallet transaction",
+      "transaction_hash": "PENDING",
+      "network": "mainnet",
+      "status": "PENDING",
+      "notes": "Transaction data field will contain the SHA3-512 hash above."
+    },
+    "arweave": {
+      "method": "PENDING \u2014 requires wallet upload",
+      "transaction_id": "PENDING",
+      "status": "PENDING",
+      "gateway_url": "PENDING",
+      "notes": "Full master-index.json stored permanently on Arweave."
+    }
+  },
+  "verification_instructions": {
+    "bitcoin": "Download master-index.json.ots. Install ots-cli (pip install opentimestamps-client). Run: ots verify master-index.json.ots",
+    "ethereum": "Visit etherscan.io/tx/[hash]. Verify data field matches attested_hash.",
+    "arweave": "Fetch from gateway URL. Compute SHA3-512. Compare against attested_hash."
+  },
+  "quorum_rule": "2 of 3 chains must confirm for attestation to be valid per SICA \u00a73.1."
+}

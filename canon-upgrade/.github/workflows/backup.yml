@@ -1,0 +1,62 @@
+name: Weekly Archive Backup
+on:
+  schedule:
+    - cron: '0 3 * * 0'  # Every Sunday at 03:00 UTC
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for integrity
+
+      - name: Verify hash integrity
+        run: |
+          echo "Verifying SHA3-512 hashes against master index..."
+          python3 -c "
+          import json, hashlib, sys, os
+          with open('verification/hashes.json') as f:
+              hashes = json.load(f)
+          errors = 0
+          for filename, expected in hashes.items():
+              found = False
+              for root, dirs, files in os.walk('documents'):
+                  for f in files:
+                      if f == filename:
+                          path = os.path.join(root, f)
+                          with open(path, 'rb') as fh:
+                              actual = hashlib.sha3_512(fh.read()).hexdigest()
+                          if actual != expected:
+                              print(f'MISMATCH: {filename}')
+                              errors += 1
+                          else:
+                              print(f'OK: {filename}')
+                          found = True
+                          break
+                  if found:
+                      break
+              if not found:
+                  print(f'MISSING: {filename}')
+                  errors += 1
+          if errors:
+              print(f'{errors} errors found!')
+              sys.exit(1)
+          print('All hashes verified.')
+          "
+
+      - name: Create backup archive
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          tar -czf backup-${DATE}.tar.gz documents/ verification/ metadata/ LICENSE README.md
+          sha256sum backup-${DATE}.tar.gz > backup-${DATE}.tar.gz.sha256
+
+      - name: Upload backup artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: canon-backup-${{ github.run_id }}
+          path: |
+            backup-*.tar.gz
+            backup-*.sha256
+          retention-days: 90

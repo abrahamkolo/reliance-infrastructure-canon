@@ -1,0 +1,51 @@
+name: Zenodo Sync
+on:
+  release:
+    types: [published]
+
+jobs:
+  zenodo-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Create deployment archive
+        run: |
+          tar -czf reliance-infrastructure-canon-${{ github.event.release.tag_name }}.tar.gz \
+            documents/ verification/ metadata/ LICENSE README.md
+      
+      - name: Upload to Zenodo
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+        run: |
+          # Create new version from existing deposit
+          PARENT_ID=18707171
+          
+          # Create new version
+          RESPONSE=$(curl -s -X POST \
+            "https://zenodo.org/api/deposit/depositions/${PARENT_ID}/actions/newversion" \
+            -H "Authorization: Bearer ${ZENODO_TOKEN}")
+          
+          NEW_URL=$(echo $RESPONSE | python3 -c "import sys,json; print(json.load(sys.stdin)['links']['latest_draft'])")
+          NEW_ID=$(echo $NEW_URL | grep -oP '\d+$')
+          BUCKET=$(curl -s "$NEW_URL?access_token=${ZENODO_TOKEN}" | python3 -c "import sys,json; print(json.load(sys.stdin)['links']['bucket'])")
+          
+          # Upload new archive
+          curl -s -X PUT \
+            "${BUCKET}/reliance-infrastructure-canon-${{ github.event.release.tag_name }}.tar.gz" \
+            -H "Authorization: Bearer ${ZENODO_TOKEN}" \
+            --data-binary @reliance-infrastructure-canon-${{ github.event.release.tag_name }}.tar.gz
+          
+          # Update metadata version
+          curl -s -X PUT \
+            "https://zenodo.org/api/deposit/depositions/${NEW_ID}" \
+            -H "Authorization: Bearer ${ZENODO_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d "{\"metadata\":{\"version\":\"${{ github.event.release.tag_name }}\"}}"
+          
+          # Publish
+          curl -s -X POST \
+            "https://zenodo.org/api/deposit/depositions/${NEW_ID}/actions/publish" \
+            -H "Authorization: Bearer ${ZENODO_TOKEN}"
+          
+          echo "New Zenodo version published for ${{ github.event.release.tag_name }}"

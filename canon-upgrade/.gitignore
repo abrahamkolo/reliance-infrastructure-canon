@@ -1,0 +1,13 @@
+# NEVER commit private signing keys
+PRIVATE-KEY-SECURE-THIS.pem
+reliance-signing-key.pem
+*.pem
+!verification/reliance-signing-key.pub
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
