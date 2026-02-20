@@ -34,7 +34,7 @@
     "related_identifiers": [
       {
         "relation": "isSupplementedBy",
-        "identifier": "https://github.com/reliance-infrastructure/reliance-infrastructure-canon",
+        "identifier": "https://github.com/abrahamkolo/reliance-infrastructure-canon",
         "resource_type": "software",
         "scheme": "url"
       }
