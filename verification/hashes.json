@@ -1,0 +1,319 @@
+{
+  "algorithm": "SHA3-512",
+  "generated_utc": "2026-02-20T03:06:58.000Z",
+  "total_documents": 39,
+  "hashes": [
+    {
+      "document_id": "DOC-001",
+      "filename": "DOC-001_MW-CANON_v2.1.0.txt",
+      "category": "01-constitutional-authorities",
+      "sha3_512": "bb0ea049e231a5fc7a2ac08cdc0b1e9b5c8efb7f776367956565e4979362bf5e5d7ea3a22ddb892c7868923d70a0f7c2c2d6f85cca41071a0ec145b5b3a6d3d0",
+      "size_bytes": 55437,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-002",
+      "filename": "DOC-002_LAYER-ARCHITECTURE_v2.0.0.txt",
+      "category": "01-constitutional-authorities",
+      "sha3_512": "497140b61829566885a7c924f172437dd34259edcdb5ef12ce6a2e7cc761bec3cfe9e298a6762a2b5e69794e51fdec6e0942f9e9d339217b2c5be92a2e508d57",
+      "size_bytes": 97028,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-003",
+      "filename": "DOC-003_DETERMINISM_v2.0.0.txt",
+      "category": "01-constitutional-authorities",
+      "sha3_512": "9333763b946695047b7793b38710c7b5c403c5d8a517650e563d5981e48be202ea967b5cd74ee9b07bd3be790d748c682b48559feeca19e58f4f5e0478f2e088",
+      "size_bytes": 62761,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-004",
+      "filename": "DOC-004_ISSUANCE-ADMISSIBILITY_v2.0.0.txt",
+      "category": "01-constitutional-authorities",
+      "sha3_512": "238f9fa74f0b60a5c3a488fb1eab092a989805b8fda8c8c6ab114d4ecdc1156df4bb55ba2b59695519e74b57aa1f56d8bd7dec674a6bb5ee8fa8dfd98017a245",
+      "size_bytes": 96176,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-005",
+      "filename": "DOC-005_PRICING-FEE-PRIMITIVES_v2.0.0.txt",
+      "category": "01-constitutional-authorities",
+      "sha3_512": "cf3065f646c95aaacc84b5d3bc2d0c681b71e3e709bf08a2be7b4830ee2fe5519079b20b8d69abce66d2bab23edd0fa05a48e946a4c11b51cedb97db4d31913a",
+      "size_bytes": 98827,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-006",
+      "filename": "DOC-006_EXTERNAL-NON-ADVICE_v2.0.0.txt",
+      "category": "01-constitutional-authorities",
+      "sha3_512": "96279f4d73f5a5f523f29e25b68077348e08001310a2129e0f6eb2b25dde0ad88b079c5b9a869d8ce6ae5a90fbbcbc1ad4e9c665fedd9aab0bd601af980f730c",
+      "size_bytes": 132453,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-007",
+      "filename": "DOC-007_IRUA-CONSTITUTION_v2.0.0.txt",
+      "category": "01-constitutional-authorities",
+      "sha3_512": "ed2d573a2ac371e42104bd871b3598bbfff3fe5d5f5a6af14380970b5457401c0020a6487087c83f020dd5864ea05bdda951ddcbd09a474dea8033de92a310bf",
+      "size_bytes": 69746,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-008",
+      "filename": "DOC-008_GEAA-CONSTITUTION_v2.0.0.txt",
+      "category": "01-constitutional-authorities",
+      "sha3_512": "33b96f776d6c400e906dce40ec2d05fb7d22de87e9a8795f3c8ee467cb75289b949759d92df29314a02ffb6b2c01f78ac8e50d81be9c54dee5cdc1a9416cb923",
+      "size_bytes": 67942,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-009",
+      "filename": "DOC-009_CIVICHAB-CONSTITUTION_v2.0.0.txt",
+      "category": "01-constitutional-authorities",
+      "sha3_512": "1901eb20f7a850fd954080303e68845813ecff2640c2a47438de48557256c4ac5774669a38f82f9c00f19ece1692712601ac71b076ef3cf4cfcd0dac6522ef36",
+      "size_bytes": 55860,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-010",
+      "filename": "DOC-010_GCPA-CONSTITUTION_v2.0.0.txt",
+      "category": "02-operational-protocols",
+      "sha3_512": "08ccb673a0fdc473e9eb2fe47cd8d3059d210ff0e1e2b5253f620780cf6b1de5b5b69f61f61b16774bdd875246b79d66107d9e23d1e29820d809b602cf928cc1",
+      "size_bytes": 83100,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-011",
+      "filename": "DOC-011_PMOA-CONSTITUTION_v2.0.0.txt",
+      "category": "02-operational-protocols",
+      "sha3_512": "25911c8720f5c813cb326116a0d35828b2f8b5ed8fc32b088d9b88b65b81e581d9bf07c1629327b6e216f2eddf3e8b953f7a60e68043103e5e19e05493ffeb46",
+      "size_bytes": 90581,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-012",
+      "filename": "DOC-012_EWA-CONSTITUTION_v2.0.0.txt",
+      "category": "02-operational-protocols",
+      "sha3_512": "08b6513941f6cfc5bf8c93f13a66f9b80ff7baf0c36b9619fa013b15e83b32cabfe5af11b6f43be0d21bf34d94b6305a57d7e8b844e9a3056618f1c6fbb11e0c",
+      "size_bytes": 71017,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-013",
+      "filename": "DOC-013_EPA-CONSTITUTION_v2.0.0.txt",
+      "category": "02-operational-protocols",
+      "sha3_512": "f3c7ea15c5bd942aad9918a2f7a671f8de61d7000377f1e376143c1eefc0e85ab5b243a9c0a55de513e50744053656cbb046a0cde470a451f272a22f80b273b8",
+      "size_bytes": 40021,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-014",
+      "filename": "DOC-014_EFAA-CONSTITUTION_v2.0.0.txt",
+      "category": "02-operational-protocols",
+      "sha3_512": "0a76615d0ba3f23d50a277bed2d9f25738b858fee15f88d082a985bab8d8c2de145fdefad5a3385a2aed57f6f573af7ebd2eea366ed67dc79b26236d07a3291e",
+      "size_bytes": 56421,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-015",
+      "filename": "DOC-015_UPDIUD-CONSTITUTION_v2.0.0.txt",
+      "category": "02-operational-protocols",
+      "sha3_512": "f2bb01d7f4a018264305560be972baa9daadaf61b16c250acda6ffd58aba8f7e10a6fae79a629210ddea719c2185605eba145139232bed235e14709374a63cef",
+      "size_bytes": 48654,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-016",
+      "filename": "DOC-016_SICA-CONSTITUTION_v2.0.0.txt",
+      "category": "02-operational-protocols",
+      "sha3_512": "846b6b06389bc465556510bdfe25b3e83b785d051e5232f6c5d8a1ebabf6fa1b22d485035a5b1dc5b602e35334fdd20b1572e69f88305716475961bf6289c93b",
+      "size_bytes": 57315,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-017",
+      "filename": "DOC-017_IATA-CONSTITUTION_v2.0.0.txt",
+      "category": "02-operational-protocols",
+      "sha3_512": "aa14e640ad23c12406ce87cbb4ee024561d40fde7a411b2229581cfde24e63564e0d16083a443312257048ae4c6fffa12cb0842aa24a50af29e2a2e6b2dfbc44",
+      "size_bytes": 55854,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-018",
+      "filename": "DOC-018_DRFA-CONSTITUTION_v2.0.0.txt",
+      "category": "02-operational-protocols",
+      "sha3_512": "a3202fab302f54c37b762c8238488673fd183b876026da773a015eb45a1d06fe1bdd90cea101c07fb0ede6621bae2443d03fad3fa5719af40f484de882591137",
+      "size_bytes": 54412,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-019",
+      "filename": "DOC-019_CRTA-CONSTITUTION_v2.0.0.txt",
+      "category": "02-operational-protocols",
+      "sha3_512": "d15979a669f09d617b3c94f9c2ef89815891c35a803bd19b1ea2def27cba0514119eef00822715f55ef5040965b59b8eeb17fd09e208d355db8620019b54876e",
+      "size_bytes": 58288,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-020",
+      "filename": "DOC-020_IPPA-CONSTITUTION_v2.0.0.txt",
+      "category": "02-operational-protocols",
+      "sha3_512": "036fca5c1a0db9d89b8da8143f4a7072b8966f329f896d90e0aa617db81f23b018b5dec9055cbb6ecfe1a98368831eca3ffd34e334dcf43ed41d771e0e81d1bb",
+      "size_bytes": 57469,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-021",
+      "filename": "DOC-021_CSCA-CONSTITUTION_v2.0.0.txt",
+      "category": "02-operational-protocols",
+      "sha3_512": "9dd90026795a556250f1859c29f5d58b8e022af88d9789935d235a129bd3e63a44feca6b4c68120fb557a54e02be9acfd6f48fcc1918b6f037d3b86caabb0598",
+      "size_bytes": 57835,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-022",
+      "filename": "DOC-022_DCPA-CONSTITUTION_v2.0.0.txt",
+      "category": "02-operational-protocols",
+      "sha3_512": "d0da671814beabf4468b56ed43e3730faa4972f38f4b5d379ed6377c9075e8e77228006bf761b54d717a45344f68bb46aab03e371fd37dd3c8e2029355c4e1cd",
+      "size_bytes": 58257,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-023",
+      "filename": "DOC-023_FAPA-CONSTITUTION_v2.0.0.txt",
+      "category": "02-operational-protocols",
+      "sha3_512": "c4b61b6c2572472ada89bf7a524fe9026cd778b73b65cd88cd3199eb1d64b6e97f0527f529a18b4c5085275cb0fd7bc0500bd4baf5d980f67700fa02f7d6e26f",
+      "size_bytes": 59223,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-024",
+      "filename": "DOC-024_IPS_v2.0.0.txt",
+      "category": "03-legal-instruments",
+      "sha3_512": "2d587d1137276dc41df94dac0d558564762dd39bed67f7d0ca450dbeed1e0a61dfc4b6e9f32ffbae4a910271e61f567406b4b809143b6289cd9dc565d6c09201",
+      "size_bytes": 45672,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-025",
+      "filename": "DOC-025_BDTM_v2.0.0.txt",
+      "category": "03-legal-instruments",
+      "sha3_512": "06077033ab31547d0d54afc61b40e3e88056f78a999ed614d37a74fe1a4c5871ad400097f08aeefce4536f7ff45dafd178f73498bd34c1b9986987a521565636",
+      "size_bytes": 41583,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-026",
+      "filename": "DOC-026_AFIHS_v2.0.0.txt",
+      "category": "03-legal-instruments",
+      "sha3_512": "031319ee09af26f0db32498f72d7ad4efdb5f339f39d96e866ff30c4d4a96b90fbcf4fe7bfea956416b3e1e88fed01b0763a9cd1a991579f188228c76806ccdd",
+      "size_bytes": 43414,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-027",
+      "filename": "DOC-027_CCOCP_v2.0.0.txt",
+      "category": "03-legal-instruments",
+      "sha3_512": "6b6f55d5d0a5801ce704c3b1f52fd437b9610bc598c3e8ec7220137db3093bfcbdb659352b509f40c74d5dc669a662fddefbbc76ae42a97a07738b72c1be3c10",
+      "size_bytes": 46119,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-028",
+      "filename": "DOC-028_RAS_v2.0.0.txt",
+      "category": "03-legal-instruments",
+      "sha3_512": "b60c55439131a9e0027925062d8bdf0bacb1be44384324973d24f1a91de7010c1b9058c2770aa1597a4f68f99c9ed0b1c37b87250c4af424803bdb94a085f278",
+      "size_bytes": 43534,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-029",
+      "filename": "DOC-029_MJMP_v2.0.0.txt",
+      "category": "03-legal-instruments",
+      "sha3_512": "59e60d5abffbcc876f17cda66cc19ad203f3505b502a1981ef40e2cb4c04170c3af7a51902ff4046b02c4c14c4133bb06945278511e9d5f49245776fb43ac9b9",
+      "size_bytes": 36059,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-030",
+      "filename": "DOC-030_SCTP_v2.0.0.txt",
+      "category": "03-legal-instruments",
+      "sha3_512": "1b1058ad031e39692fead5c651b6f06f3ca851334369802a9b4f01d02c544d7565135fa87c3082cbe97e338530f69615c60398442d04fe3d9cdd325936528104",
+      "size_bytes": 36476,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-031",
+      "filename": "DOC-031_CAP_v2.0.0.txt",
+      "category": "03-legal-instruments",
+      "sha3_512": "3660d24a5656f9dd1f22626d79ebecaf09953f4ec8163edeaf85f1c365831392624abfdf9115ecf1cf261738c102426a66d38856b720f59a058acf1d2fcb563e",
+      "size_bytes": 34165,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-032",
+      "filename": "DOC-032_GCRA-CONSTITUTION_v2.0.0.txt",
+      "category": "04-interface-packs",
+      "sha3_512": "9783fe82443b43ef724890cef25ac41eac43aeb3aa1a74158fbffbe1714d5132ab9429a5686952f02722c2b6715719786fc09a57896cf758ad5592d14c09f7a1",
+      "size_bytes": 53300,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-033",
+      "filename": "DOC-033_RIX_v2.0.0.txt",
+      "category": "04-interface-packs",
+      "sha3_512": "679829f268eb4a4f42c9dc3e141a8df1a8458ef6ff230f24b85739a4fc5484c99b2bf5f2b6abe91825230de91b904d99ae9a2cd64b092c91eba2319f4f9bd090",
+      "size_bytes": 50312,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-034",
+      "filename": "DOC-034_ROD_v2.0.0.txt",
+      "category": "04-interface-packs",
+      "sha3_512": "945625da41786891f235f31379ecf409eca34e87d1cfe2fc6e50919677ac063537717714fd3ff3e69d67e7e286f48e0e39aded23541998789fbe57337ecdaff5",
+      "size_bytes": 50743,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-035",
+      "filename": "DOC-035_CACAP_v2.0.0.txt",
+      "category": "04-interface-packs",
+      "sha3_512": "3adb28520c3ddede23c52048201ddaedf92220a7c83c3d1512465e40b0e9411b8bfdd700f695374c6f85bbd7fe6707a7973ac4458076bf5092322f8b11bc6d1e",
+      "size_bytes": 42145,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-036",
+      "filename": "DOC-036_CRM_v2.0.0.txt",
+      "category": "04-interface-packs",
+      "sha3_512": "9d5915183a51740091591b0e6bd236cb99192e02d574f621b486ef58734613ca532c6643539dee7d25dfe1dc2e4702576ffefbd5913e17aa0ecd71d7ac54fe43",
+      "size_bytes": 38866,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-037",
+      "filename": "DOC-037_PRPM_v2.0.0.txt",
+      "category": "04-interface-packs",
+      "sha3_512": "4de93fe9f6205922a152249cc77434815e6ac61687172cb8404175131be3dee9264ad1dc195c2a44d851c3bbad021f4893cf8599726e559ea0d1761cee5b2bd6",
+      "size_bytes": 43518,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-038",
+      "filename": "DOC-038_BGDP_v2.0.0.txt",
+      "category": "04-interface-packs",
+      "sha3_512": "7445006f3ab82ce533b35e10f5db05cc9d5af41c881b9be05e1e7f3e6912a4d9e4a223f3eb2e3e5e19a34776f46b99900dbe91f9f714e4e1b0823b5f0fd2ab83",
+      "size_bytes": 38074,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    },
+    {
+      "document_id": "DOC-039",
+      "filename": "DOC-039_EBP_v2.0.0.txt",
+      "category": "04-interface-packs",
+      "sha3_512": "c3c4f92d7e36053cc3513fb57d565397c4be5a748c73846b9b386799803f6372e59e4cddc8c3d14615e98704cc73b1a790252c8cfde94192c46598cae9a16390",
+      "size_bytes": 57404,
+      "generated_utc": "2026-02-20T03:06:58.000Z"
+    }
+  ]
+}

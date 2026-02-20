@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "title": "MW Infrastructure Stack — Canonical Document Repository",
+    "upload_type": "publication",
+    "publication_type": "workingpaper",
+    "description": "The MW Infrastructure Stack is a comprehensive 39-document constitutional framework for institutional-grade governance infrastructure. The stack provides deterministic, document-bound authority systems for evidence admissibility, compliance certification, dispute resolution, intellectual property permanence, and institutional reliance. All documents operate under Run-Only governance with SHA3-512 cryptographic verification. The system is designed for complete founder irrelevance — identical inputs produce identical outputs regardless of administration. This release contains all 39 canonical documents at v2.0.0 grade (MW Canon at v2.1.0), verified with SHA3-512 hashes and structured for institutional licensing under CC BY-ND 4.0.",
+    "creators": [
+      {
+        "name": "MW Infrastructure Authority",
+        "affiliation": "Reliance Infrastructure Holdings LLC"
+      }
+    ],
+    "keywords": [
+      "institutional governance",
+      "constitutional infrastructure",
+      "compliance framework",
+      "evidence admissibility",
+      "deterministic governance",
+      "document-bound authority",
+      "cryptographic verification",
+      "SHA3-512",
+      "institutional licensing",
+      "governance standards"
+    ],
+    "license": "CC-BY-ND-4.0",
+    "version": "2.0.0",
+    "language": "eng",
+    "access_right": "open",
+    "communities": [
+      {
+        "identifier": "reliance-infrastructure"
+      }
+    ],
+    "related_identifiers": [
+      {
+        "relation": "isSupplementedBy",
+        "identifier": "https://github.com/reliance-infrastructure/reliance-infrastructure-canon",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "notes": "This is the canonical academic archive of the MW Infrastructure Stack. The primary repository is hosted on GitHub. This Zenodo archive ensures CERN-backed preservation independent of any single hosting platform. Institutional licensing inquiries should reference the IRUA Constitution (DOC-007) within this archive."
+  }
+}
