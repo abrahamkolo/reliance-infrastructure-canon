@@ -187,6 +187,16 @@ When documents conflict, higher-layer documents prevail:
 
 ---
 
+## Ecosystem
+
+| Tool | Purpose |
+|---|---|
+| [reliance-verify](https://github.com/abrahamkolo/reliance-verify) | Independent verification tool |
+| [governance-templates](https://github.com/abrahamkolo/governance-templates) | Reusable institutional templates |
+| [mw-omega-orchestrator](https://github.com/abrahamkolo/mw-omega-orchestrator) | Deterministic orchestration engine |
+
+---
+
 ## Academic Citation
 
 ```bibtex
