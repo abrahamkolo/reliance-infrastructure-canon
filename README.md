@@ -1,4 +1,5 @@
 [![Hash Verification](https://github.com/abrahamkolo/reliance-infrastructure-canon/actions/workflows/backup.yml/badge.svg)](https://github.com/abrahamkolo/reliance-infrastructure-canon/actions/workflows/backup.yml)
+[![Canon Integrity](https://github.com/abrahamkolo/reliance-infrastructure-canon/actions/workflows/integrity-check.yml/badge.svg)](https://github.com/abrahamkolo/reliance-infrastructure-canon/actions/workflows/integrity-check.yml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18707171.svg)](https://doi.org/10.5281/zenodo.18707171)
 [![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC_BY--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/)
 
