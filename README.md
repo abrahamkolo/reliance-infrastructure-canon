@@ -1,9 +1,36 @@
+[![Hash Verification](https://github.com/abrahamkolo/reliance-infrastructure-canon/actions/workflows/backup.yml/badge.svg)](https://github.com/abrahamkolo/reliance-infrastructure-canon/actions/workflows/backup.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18707171.svg)](https://doi.org/10.5281/zenodo.18707171)
+[![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC_BY--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/)
+
 # Reliance Infrastructure Canon
 
 **39 Constitutional Documents for Institutional-Grade Governance**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18707171.svg)](https://doi.org/10.5281/zenodo.18707171)
-[![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/)
+## Start Here in 60 Seconds
+
+**What this is:** 39 institutional-grade governance documents forming a complete constitutional stack for deterministic decision-making. Every document is cryptographically signed and independently verifiable.
+
+**Quick verify** (requires Python 3.8+):
+```bash
+git clone https://github.com/abrahamkolo/reliance-infrastructure-canon.git
+cd reliance-infrastructure-canon
+python3 verification/verify-canon.py
+```
+
+Expected output:
+```
+Verifying 39 documents...
+SHA3-512 hashes: 39/39 PASS
+Ed25519 signatures: 39/39 PASS
+Master index signature: PASS
+═══════════════════════════
+VERDICT: AUTHENTIC
+═══════════════════════════
+```
+
+**Read first:** DOC-001: MW Canon — the root constitutional document.
+
+**Full documentation:** See sections below.
 
 ---
 
