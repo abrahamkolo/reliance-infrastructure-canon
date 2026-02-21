@@ -1,0 +1,34 @@
+Reliance Infrastructure Canon
+Copyright 2025 Reliance Infrastructure Holdings LLC
+All rights reserved under applicable law.
+
+Licensed under Creative Commons Attribution-NoDerivatives 4.0 International
+(CC BY-ND 4.0). See LICENSE for full terms.
+
+This repository contains 39 canonical institutional governance documents
+constituting the MW Infrastructure Stack (MW-Omega v2.0.0).
+
+CRYPTOGRAPHIC VERIFICATION
+--------------------------
+SHA3-512 hashes:     verification/hashes.txt (39/39 documents)
+Ed25519 signatures:  verification/signatures.json (39/39 documents)
+Ed25519 public key:  verification/public_key.pem
+Bitcoin attestation: OpenTimestamps submitted
+Ethereum attestation: See verification/BLOCKCHAIN-RECORDS.json
+Arweave archive:     See verification/BLOCKCHAIN-RECORDS.json
+
+CANONICAL ARCHIVES
+------------------
+GitHub (primary):    https://github.com/abrahamkolo/reliance-infrastructure-canon
+Zenodo (DOI):        https://doi.org/10.5281/zenodo.18707171
+Zenodo community:    https://zenodo.org/communities/reliance-infrastructure
+Arweave (permanent): See verification/BLOCKCHAIN-RECORDS.json
+
+INDEPENDENT VERIFICATION
+------------------------
+Standalone verifier: https://github.com/abrahamkolo/reliance-verify
+
+CONTACT
+-------
+System integrity reports only: [pending -- integrity@mwcanon.org]
+No support. No customization. No consultation.
