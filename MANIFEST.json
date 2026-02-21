@@ -1,9 +1,9 @@
 {
   "manifest_id": "MW-MANIFEST-v2.0.0",
-  "generated": "2026-02-21T05:34:55Z",
+  "generated": "2026-02-21T05:47:30Z",
   "algorithm": "SHA3-512",
   "algorithm_spec": "NIST FIPS 202 (Keccak)",
-  "total_documents": 39,
+  "total_documents": 42,
   "gpg_signing_key": "EB937371B8993E99",
   "governing_entity": "Reliance Infrastructure Holdings LLC",
   "status": "SEALED",
@@ -318,6 +318,30 @@
       "sha3_512": "0106fd90dae6b54f1ad1ae263273a11314b36b66e72d6c40e0f749addfcac49641ec1c5812fea3cc10b1ba9433a899f13d2b3d9da20a7bc85d654b6d7d65c639",
       "file_size_bytes": 57704,
       "word_count": 6623,
+      "status": "RUN-ONLY"
+    },
+    {
+      "filename": "DOC-040_MDI_v2.0.0.txt",
+      "path": "documents/05-reference-infrastructure/DOC-040_MDI_v2.0.0.txt",
+      "sha3_512": "caf4ea1efe2ed4723775732b0942272bdab3039b543405973ae188ab2c7d72c21ddc8522e88abdb593a236e39413b87f0131509426d361e0ec462fe2151c9945",
+      "file_size_bytes": 27017,
+      "word_count": 3441,
+      "status": "RUN-ONLY"
+    },
+    {
+      "filename": "DOC-041_UGT_v2.0.0.txt",
+      "path": "documents/05-reference-infrastructure/DOC-041_UGT_v2.0.0.txt",
+      "sha3_512": "145d6d2fa43c74e0eb0aa1fbc0798a7ff317cee29630244b484f093315edc602b9b92310ed8079ed6e7f4b487282e3123e0e9543052547e3494145e034a09daf",
+      "file_size_bytes": 22895,
+      "word_count": 3082,
+      "status": "RUN-ONLY"
+    },
+    {
+      "filename": "DOC-042_DIM_v2.0.0.txt",
+      "path": "documents/05-reference-infrastructure/DOC-042_DIM_v2.0.0.txt",
+      "sha3_512": "fc4575976ba35d838b246422917360063f7e939bfca6927b0ebaaa23667960c7c9d481ee24d45ef1a25a67005b522f2e68000ecd1b7f813c6bb58a24e17453c7",
+      "file_size_bytes": 17571,
+      "word_count": 2681,
       "status": "RUN-ONLY"
     }
   ]
