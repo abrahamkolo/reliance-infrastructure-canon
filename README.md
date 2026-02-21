@@ -206,6 +206,22 @@ When documents conflict, higher-layer documents prevail:
 
 ---
 
+## Reference Artifacts
+
+| Artifact | Location | Format |
+|---|---|---|
+| 39 Canonical Documents | `documents/` layer directories | .txt (source) |
+| 39 PDF References | [`pdf-reference/`](pdf-reference/) | .pdf (read-only, hash-embedded) |
+| Citation Registry | [`CITATION-REGISTRY.md`](CITATION-REGISTRY.md) | Markdown |
+| Hash Manifest (PDF) | [`pdf-reference/PDF-HASH-MANIFEST.txt`](pdf-reference/PDF-HASH-MANIFEST.txt) | Text |
+| Institutional Proof Packet | [`institutional/`](institutional/) | .md + .pdf |
+| Verification Hashes | [`verification/hashes.txt`](verification/hashes.txt) | Text |
+| Master Index | [`verification/master-index.json`](verification/master-index.json) | JSON |
+| Blockchain Records | [`verification/BLOCKCHAIN-RECORDS.json`](verification/BLOCKCHAIN-RECORDS.json) | JSON |
+| SEAI Hash Lookup | [`hashes.json`](hashes.json) | JSON |
+
+---
+
 ## Ecosystem
 
 | Tool | Purpose |
