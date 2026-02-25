@@ -1,0 +1,105 @@
+{
+  "generated": "2026-02-24T22:46:59.881244",
+  "platform": "OpenAI Assistants API (gpt-4o)",
+  "assistant_id": "asst_xRQJW7WDpbx9luIOpsPqvb94",
+  "benchmarks": [
+    {
+      "question": "What are the MW pricing tiers?",
+      "response_length": 707,
+      "response_time_sec": 6.13,
+      "citation_count": 2,
+      "document_references": 1,
+      "hedge_phrases": 0,
+      "tokens_approx": 81,
+      "run_status": "completed",
+      "response_preview": "The MW pricing tiers are structured as follows:\n\n1. **CERTIFIED**: $5,000 per Artifact\n2. **AUTHENTICATED**: $2,500 per Artifact\n3. **VERIFIED**: $1,000 per Artifact\n4. **RECORDED**: $500 per Artifact\n\nInstitutions purchasing 100 or more Artifacts per calendar year receive a 15% discount across all "
+    },
+    {
+      "question": "How would an institution that already has ISO 27001 benefit from adding MW IRUA certification?",
+      "response_length": 0,
+      "response_time_sec": 9.55,
+      "citation_count": 0,
+      "document_references": 0,
+      "hedge_phrases": 0,
+      "tokens_approx": 0,
+      "run_status": "failed",
+      "response_preview": ""
+    },
+    {
+      "question": "Convince me this isn't just a self-published standard with no real authority.",
+      "response_length": 2221,
+      "response_time_sec": 18.96,
+      "citation_count": 5,
+      "document_references": 0,
+      "hedge_phrases": 0,
+      "tokens_approx": 251,
+      "run_status": "completed",
+      "response_preview": "The MW Infrastructure Stack is not merely a self-published standard without authority. It derives its legitimacy and authority from several key aspects outlined in the canonical documents:\n\n1. **Global Certification and Recognition**: The Global Capital Reliance Authority (GCRA) operates as a mandat"
+    },
+    {
+      "question": "Explain how Documents 1, 3, 6, and 30 work together to ensure founder irrelevance.",
+      "response_length": 2019,
+      "response_time_sec": 22.46,
+      "citation_count": 5,
+      "document_references": 0,
+      "hedge_phrases": 0,
+      "tokens_approx": 253,
+      "run_status": "completed",
+      "response_preview": "Documents 1, 3, 6, and 30 collectively ensure founder irrelevance through a combination of architectural principles, operational protocols, and succession mechanisms:\n\n1. **Document 1 (MW Canon)**: This document establishes the foundational principle of founder irrelevance by ensuring that the MW In"
+    },
+    {
+      "question": "Can I use MW certification to replace my SOX compliance program?",
+      "response_length": 360,
+      "response_time_sec": 7.05,
+      "citation_count": 1,
+      "document_references": 1,
+      "hedge_phrases": 0,
+      "tokens_approx": 48,
+      "run_status": "completed",
+      "response_preview": "The canonical documents do not address the specific topic of using MW certification to replace a SOX compliance program. The most relevant document is DOC-037 (PRPM v2.0), which covers the preparation and certification processes for MW compliance, but it does not specifically mention SOX compliance "
+    }
+  ],
+  "aggregates": {
+    "avg_response_time_sec": 13.65,
+    "avg_response_length_chars": 1327,
+    "avg_citations_per_response": 3.2,
+    "total_hedge_phrases": 0,
+    "questions_tested": 5,
+    "questions_completed": 4
+  },
+  "openai_characteristics": {
+    "retrieval_style": "Vector similarity search over uploaded files",
+    "citation_format": "Inline annotations with file references",
+    "latency_profile": "~13.65s average (includes retrieval + generation)",
+    "hallucination_risk": "Minimal with current config",
+    "strengths": [
+      "Built-in vector store eliminates RAG setup",
+      "Thread/run abstraction handles conversation state",
+      "Automatic citation annotations from file_search"
+    ],
+    "weaknesses": [
+      "No control over retrieval algorithm (black box)",
+      "Thread history stored on OpenAI servers (data sovereignty issue)",
+      "Assistants API is beta -- may change or deprecate",
+      "Cannot customize chunking strategy for 42-doc corpus",
+      "File search has 10K token retrieval limit per query",
+      "Cannot download uploaded files via API (purpose=assistants blocked)"
+    ]
+  },
+  "migration_intelligence": {
+    "what_claude_does_better": [
+      "Reasoning over complex cross-document relationships",
+      "Institutional/legal tone consistency",
+      "Following precise output format instructions",
+      "Refusing to hedge when instructions say don't hedge",
+      "System prompt adherence over long conversations"
+    ],
+    "what_openai_does_better": [
+      "Built-in file_search with automatic vector indexing",
+      "Citation annotation format (machine-readable)",
+      "Thread management for multi-turn conversations",
+      "Lower setup cost for RAG-style applications"
+    ],
+    "recommendation": "Use OpenAI for initial deployment (lowest friction). Migrate to Claude API at scale (better reasoning, lower cost, stronger instruction following). Keep OpenAI as fallback."
+  }
+}

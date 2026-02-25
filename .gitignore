@@ -18,3 +18,8 @@ qa_graded_results.json
 qa_retest_results.json
 qa_final_report.json
 assistant_backup_pre_patch.json
+
+# Portability artifacts (exclude runtime data, keep configs)
+assistant_portability/vector_store_files/*.bin
+*.env
+.env.*

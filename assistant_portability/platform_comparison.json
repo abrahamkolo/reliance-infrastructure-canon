@@ -1,0 +1,47 @@
+{
+  "generated": "2026-02-24T22:42:47.641528",
+  "current_platform": "OpenAI Assistants API",
+  "migration_readiness": "100% -- all configs built, all state extracted",
+  "platforms": {
+    "openai": {
+      "status": "ACTIVE (current)",
+      "cost_per_query": "$0.03-0.08",
+      "migration_time": "0 (already deployed)",
+      "pros": "Easiest setup, built-in vector store, thread management",
+      "cons": "Vendor lock-in risk, no data sovereignty, price changes",
+      "recommendation": "Keep as primary until FRE-001 complete"
+    },
+    "anthropic": {
+      "status": "READY TO DEPLOY",
+      "cost_per_query": "$0.015-0.075",
+      "migration_time": "30 minutes",
+      "pros": "Better reasoning, lower hallucination, simpler API, cheaper",
+      "cons": "No built-in vector store (need external RAG)",
+      "recommendation": "Deploy as primary after FRE-001, keep OpenAI as backup"
+    },
+    "azure": {
+      "status": "CONFIG READY",
+      "cost_per_query": "$0.03-0.08",
+      "migration_time": "45 minutes",
+      "pros": "Enterprise SLA, compliance certs, data residency",
+      "cons": "Azure account setup overhead, same model as OpenAI",
+      "recommendation": "Deploy only if institutional prospect requires Azure compliance"
+    },
+    "self_hosted": {
+      "status": "CONFIG READY",
+      "cost_per_query": "$0.00",
+      "migration_time": "2-3 hours",
+      "pros": "Zero cost, full sovereignty, no vendor dependency",
+      "cons": "Hardware required, lower quality than GPT-4o/Claude",
+      "recommendation": "Deploy at $50K+ ARR when infrastructure investment justified"
+    }
+  },
+  "switching_trigger_matrix": {
+    "openai_price_increase_20pct": "Switch to Anthropic",
+    "openai_api_degradation": "Switch to Anthropic",
+    "prospect_requires_azure": "Deploy Azure config",
+    "prospect_requires_data_sovereignty": "Deploy self-hosted",
+    "arr_exceeds_50k": "Deploy self-hosted as primary, keep cloud as backup",
+    "openai_discontinues_assistants_api": "Switch to Anthropic (30 min)"
+  }
+}

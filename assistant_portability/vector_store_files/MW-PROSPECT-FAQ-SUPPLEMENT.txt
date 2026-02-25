@@ -1,0 +1,126 @@
+MW INFRASTRUCTURE STACK - PROSPECT FAQ SUPPLEMENT
+Version: 1.0
+Status: Reference Supplement (non-canonical, supports assistant responses)
+Generated: 2026-02-24T22:21:15.486870
+
+This document provides synthesized answers to frequently asked prospect questions,
+cross-referencing canonical documents. This is NOT a canonical document. It is a
+reference aid for the knowledge assistant.
+
+=== SECTION 1: GENERAL OVERVIEW ===
+
+Q: What is the MW Infrastructure Stack?
+A: The MW Infrastructure Stack is a 42-document constitutional framework providing
+deterministic, document-bound governance for institutional operations. It is issued
+by Reliance Infrastructure Holdings LLC under CC BY-ND 4.0 license. Every document
+is cryptographically signed (Ed25519) and hash-verified (SHA3-512). See DOC-001
+(MW Canon) for the supreme governing document and DOC-040 (MDI) for the complete
+document index.
+
+Q: How many documents are in the stack?
+A: 42 documents total: 39 original canonical documents plus 3 reference
+infrastructure documents (DOC-040 Master Document Index, DOC-041 Universal Glossary
+of Terms, DOC-042 Document Interdependency Map). They are organized across 5 layers.
+See DOC-042 (DIM) for the complete structural map.
+
+Q: What does "deterministic" mean in this context?
+A: Deterministic means identical inputs ALWAYS produce identical outputs, regardless
+of time, geography, operator, or market conditions. This is defined in DOC-003
+(Determinism & Run-Only Enforcement Law). There is no discretion, no
+"case-by-case basis," and no "reasonable judgment" permitted.
+
+Q: What does "founder-irrelevant" mean?
+A: The system operates identically if the creator disappears permanently. This
+eliminates key-person risk at the architectural level. Defined in DOC-001. No
+founder interpretation, authentication, or emergency intervention is possible or
+permitted.
+
+=== SECTION 2: PRICING & COSTS ===
+
+Q: Can we negotiate pricing?
+A: No. Absolutely not. DOC-005 (Pricing & Fee Primitives Charter) establishes
+ZERO negotiation, ZERO discounts, ZERO volume pricing. All institutions pay
+identical prices for identical services. This is a constitutional requirement
+for deterministic operation.
+
+Q: How are prices adjusted over time?
+A: Only through mechanical CPI adjustment using Bureau of Labor Statistics data.
+Zero discretionary changes permitted. See DOC-005.
+
+Q: Is there a free trial or evaluation period?
+A: Tier 0 evaluation: 30-day read-only access to canonical documents relevant to
+certification needs. No cost, no commitment. Starts upon request.
+
+Q: What's the cancellation policy?
+A: Annual term, auto-renews. Cancel with 30 days written notice. No penalty for
+non-renewal. All certifications issued during the license term remain permanently
+valid after cancellation. See the MW Reliance License.
+
+=== SECTION 3: LEGAL & COMPLIANCE ===
+
+Q: Does MW provide legal advice?
+A: No. MW provides ZERO advice of any kind. This is an absolute prohibition with
+NO exceptions. See DOC-006 (External Non-Advice & Safe-Interface Clause). MW
+provides only four outputs: standards publication, binary certifications, registry
+services, and verification services.
+
+Q: What governing law applies?
+A: Delaware for entity operations. Dispute resolution via ICC Arbitration (Zurich)
+with backup LCIA (London). See DOC-017 (IATA Constitution).
+
+Q: Are MW certifications admissible in court?
+A: MW certifications are designed to meet evidence law requirements across multiple
+jurisdictions including U.S. Federal Rules of Evidence (FRE), EU Evidence Regulation,
+UK Civil Evidence Act, and Singapore Evidence Act. Four certification tiers exist:
+CERTIFIED, AUTHENTICATED, VERIFIED, and RECORDED. See DOC-004 (Issuance &
+Decision Admissibility Charter) and DOC-008 (GEAA Constitution).
+
+Q: What happens if the founder dies or disappears?
+A: The system is explicitly designed for this scenario. DOC-030 (SCTP) governs
+succession. DOC-019 (CRTA) handles operational continuity. DOC-001 (MW Canon)
+establishes founder irrelevance. The documents are sealed, hashed, and
+blockchain-attested -- they cannot be altered by anyone.
+
+=== SECTION 4: TECHNICAL ARCHITECTURE ===
+
+Q: What cryptographic algorithms does MW use?
+A: SHA3-512 (NIST FIPS 202) for document hashing, Ed25519 for digital signatures,
+three-chain blockchain attestation (Bitcoin via OpenTimestamps, Ethereum, Arweave).
+Quantum-resistant migration target: CRYSTALS-Dilithium (NIST PQC standard).
+See DOC-001 and DOC-016 (SICA Constitution).
+
+Q: What is the reference execution environment?
+A: Python 3.11+, Ubuntu 24.04 LTS, isolated Docker container, air-gapped execution.
+See DOC-001.
+
+Q: Can individual users access MW services?
+A: No. DOC-033 (RIX) explicitly prohibits individual access. Only qualifying
+institutions with appropriate legal entity status, capital adequacy, governance
+structures, and technical capabilities may participate.
+
+=== SECTION 5: TRUST & VERIFICATION ===
+
+Q: How can we verify document authenticity?
+A: Three independent verification methods: (1) SHA3-512 hash verification against
+verification/hashes.json, (2) Ed25519 signature verification using the published
+public key, (3) blockchain attestation on Bitcoin, Ethereum, and Arweave.
+
+Q: What prevents MW from becoming another vendor lock-in?
+A: DOC-007 (IRUA Constitution) eliminates vendor capture through: annual licensing,
+document completeness (no consulting required), canonical immutability, and
+zero negotiation or relationship-based access.
+
+Q: What if the GitHub repository is compromised?
+A: Document integrity is verified through cryptographic hashes and blockchain
+attestation, not repository integrity. Three-tier archival: GitHub, Zenodo (DOI),
+Arweave. Any single tier can independently prove authenticity. See DOC-016 (SICA).
+
+=== SECTION 6: DOCUMENT NAVIGATION ===
+
+Q: Where should I start reading?
+A: Start with DOC-001 (MW Canon), then DOC-042 (Document Interdependency Map),
+then the Layer 1 charters (DOC-002 through DOC-006).
+
+Q: How do I find which document covers a specific topic?
+A: Use DOC-040 (Master Document Index) for the complete registry. Use DOC-042
+(DIM) for relationship mapping. Use DOC-041 (Universal Glossary) for definitions.

@@ -1,0 +1,453 @@
+[
+  {
+    "id": "vs_699d29a3c60481919bad4880955d290a",
+    "name": "MW Canonical Stack v2.0",
+    "status": "completed",
+    "file_count": 44,
+    "created_at": 1771907492,
+    "files": [
+      {
+        "id": "file-SZmCPnxn15t6MFQZfZsJYQ",
+        "filename": "MW-PROSPECT-FAQ-SUPPLEMENT.txt",
+        "bytes": 6320,
+        "purpose": "assistants",
+        "created_at": 1771989688,
+        "status": "completed",
+        "downloaded": true,
+        "local_path": "assistant_portability/vector_store_files\\MW-PROSPECT-FAQ-SUPPLEMENT.txt",
+        "download_source": "local_repo"
+      },
+      {
+        "id": "file-5tcyTJtHErTxyRHCYkX5kU",
+        "filename": "MW-PROSPECT-FAQ-SUPPLEMENT.txt",
+        "bytes": 6320,
+        "purpose": "assistants",
+        "created_at": 1771989653,
+        "status": "completed",
+        "downloaded": true,
+        "local_path": "assistant_portability/vector_store_files\\MW-PROSPECT-FAQ-SUPPLEMENT.txt",
+        "download_source": "local_repo"
+      },
+      {
+        "id": "file-2WZTmdNU8kNfPKzmi98LRo",
+        "filename": "DOCUMENT_15__UPDIUD_CONSTITUTION_v2_0_COMPLETE.txt",
+        "bytes": 48654,
+        "purpose": "assistants",
+        "created_at": 1771907498,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-3EkQiZE8qDHKncXAzYrsFg",
+        "filename": "DOCUMENT_12__EWA_CONSTITUTION_v2.0_COMPLETE.txt",
+        "bytes": 71017,
+        "purpose": "assistants",
+        "created_at": 1771907498,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-3jUXv3zaEQe8MQmjKNeVed",
+        "filename": "DOCUMENT_37__PRPM_v2_0_COMPLETE.txt",
+        "bytes": 43518,
+        "purpose": "assistants",
+        "created_at": 1771907500,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-3w1UH9VTqKyHEEBCN6GYhQ",
+        "filename": "DOCUMENT_7__IRUA_CONSTITUTION_v2.0_COMPLETE.txt",
+        "bytes": 69746,
+        "purpose": "assistants",
+        "created_at": 1771907497,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-46ggrHHBDSUh6K5y4ubLrD",
+        "filename": "DOCUMENT_33__RIX_v2_0_COMPLETE.txt",
+        "bytes": 50312,
+        "purpose": "assistants",
+        "created_at": 1771907500,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-4LFVz65o82W5MpkZExdFfQ",
+        "filename": "DOCUMENT_36__CRM_v2_0_COMPLETE.txt",
+        "bytes": 38866,
+        "purpose": "assistants",
+        "created_at": 1771907500,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-4reTq1KMThXm1YAFSAviWS",
+        "filename": "DOCUMENT_19__CRTA_CONSTITUTION_v2_0_COMPLETE.txt",
+        "bytes": 58288,
+        "purpose": "assistants",
+        "created_at": 1771907499,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-7uNT9a2zXeptjDpJHUU1to",
+        "filename": "DOCUMENT_29__MJMP_v2_0_COMPLETE.txt",
+        "bytes": 36059,
+        "purpose": "assistants",
+        "created_at": 1771907500,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-7xsQuj6AoqnieuGsUzv7dX",
+        "filename": "DOCUMENT_22__DCPA_CONSTITUTION_v2_0_COMPLETE.txt",
+        "bytes": 58257,
+        "purpose": "assistants",
+        "created_at": 1771907499,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-8MURuNzWg9YKFi89KHEkF1",
+        "filename": "DOCUMENT_31__CAP_v2_0_COMPLETE.txt",
+        "bytes": 34165,
+        "purpose": "assistants",
+        "created_at": 1771907500,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-9ZKSnSBWRtMDkHswkSrkJF",
+        "filename": "DOCUMENT_1_MW_CANON_v2_1_COMPLETE.txt",
+        "bytes": 55437,
+        "purpose": "assistants",
+        "created_at": 1771907497,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-ACPsDMquDxzuoJqTDLZrZv",
+        "filename": "DOCUMENT_28__RAS_v2_0_COMPLETE.txt",
+        "bytes": 43534,
+        "purpose": "assistants",
+        "created_at": 1771907500,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-ALavUQwDpcRz3CXFKvyHY5",
+        "filename": "DOCUMENT_17__IATA_CONSTITUTION_v2_0_COMPLETE.txt",
+        "bytes": 55854,
+        "purpose": "assistants",
+        "created_at": 1771907498,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-Ch9XqWr8ZM9qd4PjpbGubN",
+        "filename": "DOCUMENT_20__IPPA_CONSTITUTION_v2_0_COMPLETE.txt",
+        "bytes": 57469,
+        "purpose": "assistants",
+        "created_at": 1771907499,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-DgG8rDkT6S8oHhabyP8kNR",
+        "filename": "DOCUMENT_35__CACAP_v2_0_COMPLETE.txt",
+        "bytes": 42145,
+        "purpose": "assistants",
+        "created_at": 1771907500,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-EbsghVGgus556n5ACP5jG6",
+        "filename": "DOCUMENT_8__GEAA_CONSTITUTION_v2.0_COMPLETE.txt",
+        "bytes": 67942,
+        "purpose": "assistants",
+        "created_at": 1771907497,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-FJnwE2vd3Wyvzaod7chopM",
+        "filename": "DOCUMENT_30__SCTP_v2_0_COMPLETE.txt",
+        "bytes": 36476,
+        "purpose": "assistants",
+        "created_at": 1771907500,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-FKA8FTt9SeQzBHFKCpeeFe",
+        "filename": "DOCUMENT_32__GCRA_CONST_v2_0_COMPLETE.txt",
+        "bytes": 53300,
+        "purpose": "assistants",
+        "created_at": 1771907500,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-FyiUffF7ETVFbRUTXPhM5n",
+        "filename": "DOCUMENT_25__BDTM_v2_0_COMPLETE.txt",
+        "bytes": 41583,
+        "purpose": "assistants",
+        "created_at": 1771907499,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-GM2fhhyzVGJYNqSY61G8iT",
+        "filename": "DOCUMENT_3_DETERMINISM_v2.0_COMPLETE.txt",
+        "bytes": 62761,
+        "purpose": "assistants",
+        "created_at": 1771907497,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-GZQJV76tWzJyU7Y92S9Ruw",
+        "filename": "DOCUMENT_14__EFAA_CONSTITUTION_v2_0_COMPLETE.txt",
+        "bytes": 56421,
+        "purpose": "assistants",
+        "created_at": 1771907498,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-GsLRG3sJVK7pGcJe7bi7k3",
+        "filename": "DOCUMENT_42__DIM_v2_0_COMPLETE.txt",
+        "bytes": 17571,
+        "purpose": "assistants",
+        "created_at": 1771907501,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-H84CucnX7JEFhVtoL4vXMe",
+        "filename": "DOCUMENT_40__MDI_v2_0_COMPLETE.txt",
+        "bytes": 27017,
+        "purpose": "assistants",
+        "created_at": 1771907501,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-Hpnka7DPfokVsWTpCvgwBc",
+        "filename": "DOCUMENT_41__UGT_v2_0_COMPLETE.txt",
+        "bytes": 22895,
+        "purpose": "assistants",
+        "created_at": 1771907501,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-JgmF2SJNCEDJPatm3C57uK",
+        "filename": "DOCUMENT_24__IPS_v2_0_COMPLETE.txt",
+        "bytes": 45672,
+        "purpose": "assistants",
+        "created_at": 1771907499,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-JsHeLwWfLyAm2ZvTSbQNYu",
+        "filename": "DOCUMENT_34__ROD_v2_0_COMPLETE.txt",
+        "bytes": 50743,
+        "purpose": "assistants",
+        "created_at": 1771907500,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-KCNwT6UDs6sfY7acMtLkTD",
+        "filename": "DOCUMENT_21__CSCA_CONSTITUTION_v2_0_COMPLETE.txt",
+        "bytes": 57835,
+        "purpose": "assistants",
+        "created_at": 1771907499,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-LSKLb3hHRtAiXsGEqGAPSo",
+        "filename": "DOCUMENT_9__CIVICHAB_CONSTITUTION_v2.0_COMPLETE.txt",
+        "bytes": 55860,
+        "purpose": "assistants",
+        "created_at": 1771907498,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-LgXJ5BgJSb52zjnsXpBF5c",
+        "filename": "DOCUMENT_2_LAYER_ARCHITECTURE_v2.0_COMPLETE.txt",
+        "bytes": 97028,
+        "purpose": "assistants",
+        "created_at": 1771907497,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-M4sv3XRrw4rV87qwmZUxPL",
+        "filename": "DOCUMENT_38__BGDP_v2_0_COMPLETE.txt",
+        "bytes": 38074,
+        "purpose": "assistants",
+        "created_at": 1771907501,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-N43fiCQQ2mw5R5VzC6e4KY",
+        "filename": "DOCUMENT_5__PRICING_FEE_PRIMITIVES_CHARTER_v2.0_COMPLETE.txt",
+        "bytes": 98827,
+        "purpose": "assistants",
+        "created_at": 1771907499,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-NDBFFGWh4BTDXEJiirDFgb",
+        "filename": "DOCUMENT_27__CCOCP_v2_0_COMPLETE.txt",
+        "bytes": 46119,
+        "purpose": "assistants",
+        "created_at": 1771907500,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-RPogRgYq4bYtqezjoMH1Mz",
+        "filename": "DOCUMENT_16__SICA_CONSTITUTION_v2_0_COMPLETE.txt",
+        "bytes": 57315,
+        "purpose": "assistants",
+        "created_at": 1771907498,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-RQ7yeb7t2gvSsReDNYcvnT",
+        "filename": "DOCUMENT_18__DRFA_CONSTITUTION_v2_0_COMPLETE.txt",
+        "bytes": 54412,
+        "purpose": "assistants",
+        "created_at": 1771907499,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-RcBYZdzEM8KUpzHYpsdPiU",
+        "filename": "DOCUMENT_13__EPA_CONSTITUTION_v2.0_COMPLETE.txt",
+        "bytes": 40021,
+        "purpose": "assistants",
+        "created_at": 1771907498,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-TSMXCC9RfRWQUFjvK96PFi",
+        "filename": "DOCUMENT_11__PMOA_CONSTITUTION_v2.0_COMPLETE.txt",
+        "bytes": 90581,
+        "purpose": "assistants",
+        "created_at": 1771907498,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-TaiMuSMkBSyskc8xLkPe5w",
+        "filename": "DOCUMENT_6__EXTERNAL_NON-ADVICE_SAFE-INTERFACE_CLAUSE_v2.0_COMPLETE.txt",
+        "bytes": 132453,
+        "purpose": "assistants",
+        "created_at": 1771907497,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-W8YmTNdCZLucEX64wxgp2y",
+        "filename": "DOCUMENT_10__GCPA_CONSTITUTION_v2.0_COMPLETE.txt",
+        "bytes": 83100,
+        "purpose": "assistants",
+        "created_at": 1771907498,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-Wau58SNfenuKt8tTJLtiet",
+        "filename": "DOCUMENT_39__EBP_v2_0_COMPLETE.txt",
+        "bytes": 57404,
+        "purpose": "assistants",
+        "created_at": 1771907501,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-X8esGtSoeG6gQoNCQg5uQ1",
+        "filename": "DOCUMENT_26__AFIHS_v2_0_COMPLETE.txt",
+        "bytes": 43414,
+        "purpose": "assistants",
+        "created_at": 1771907499,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-XH3Y9A3aW9ae9WYLbbxUqq",
+        "filename": "DOCUMENT_23__FAPA_CONSTITUTION_v2_0_COMPLETE.txt",
+        "bytes": 59223,
+        "purpose": "assistants",
+        "created_at": 1771907499,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      },
+      {
+        "id": "file-YRqdeZwSDcEVTmUu4xeZyN",
+        "filename": "DOCUMENT_4__ISSUANCE_DECISION_ADMISSIBILITY_CHARTER_v2.0_COMPLETE.txt",
+        "bytes": 96176,
+        "purpose": "assistants",
+        "created_at": 1771907497,
+        "status": "completed",
+        "downloaded": false,
+        "download_error": "Error code: 400 - {'error': {'message': 'Not allowed to download files of purpose: assistants', 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+      }
+    ]
+  }
+]

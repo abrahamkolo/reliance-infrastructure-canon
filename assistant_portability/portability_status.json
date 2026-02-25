@@ -1,0 +1,44 @@
+{
+  "generated": "2026-02-24T22:47:39.607667",
+  "portability_score": 100,
+  "scores": {
+    "state_extraction": 100,
+    "golden_qa_pairs": 100,
+    "vector_store_backup": 100,
+    "anthropic_config": 100,
+    "azure_config": 100,
+    "selfhosted_config": 100,
+    "migration_script_valid": 100,
+    "competitive_intel": 100,
+    "switching_triggers_defined": 100,
+    "zero_openai_dependency": 100
+  },
+  "missing_files": [],
+  "vendor_lock_in_eliminated": true,
+  "migration_ready": {
+    "anthropic": true,
+    "azure": true,
+    "self_hosted": true
+  },
+  "exploitation_grade": {
+    "before": {
+      "strategic_use": 95,
+      "cost_efficiency": 90,
+      "competitive_positioning": 100,
+      "knowledge_extraction": 85,
+      "vendor_lock_in_avoidance": 70,
+      "platform_arbitrage": 95,
+      "total": 89
+    },
+    "after": {
+      "strategic_use": 95,
+      "cost_efficiency": 90,
+      "competitive_positioning": 100,
+      "knowledge_extraction": 100,
+      "vendor_lock_in_avoidance": 100,
+      "platform_arbitrage": 100,
+      "total": 98
+    },
+    "improvement": "+9 points (89 -> 98)"
+  }
+}

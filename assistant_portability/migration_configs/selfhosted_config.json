@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "platform": "Self-Hosted (Ollama + ChromaDB)",
+    "generated": "2026-02-24T22:42:47.639528",
+    "migration_time_estimate": "2-3 hours",
+    "cost_estimate": "$0 ongoing (hardware cost only)",
+    "docs": "https://ollama.ai + https://docs.trychroma.com"
+  },
+  "model": "llama3.1:70b or mixtral:8x7b",
+  "vector_db": "ChromaDB (local, zero cost)",
+  "setup_steps": [
+    "1. Install Ollama: curl -fsSL https://ollama.com/install.sh | sh",
+    "2. Pull model: ollama pull llama3.1:70b",
+    "3. pip install chromadb langchain-community",
+    "4. Index 42 docs + FAQ supplement into ChromaDB collection",
+    "5. Build RAG pipeline: query -> ChromaDB retrieval -> Ollama generation",
+    "6. Test with golden_qa_pairs.json",
+    "7. Deploy behind nginx for HTTPS"
+  ],
+  "advantages": [
+    "Zero ongoing API cost",
+    "Complete data sovereignty (nothing leaves your server)",
+    "No vendor dependency whatsoever",
+    "Ultimate founder-irrelevance: runs on any Linux box forever",
+    "Perfect for institutional prospects with data residency requirements"
+  ],
+  "minimum_hardware": {
+    "RAM": "32GB (70B model) or 16GB (8x7B model)",
+    "GPU": "Optional but recommended (NVIDIA with 24GB+ VRAM)",
+    "Storage": "50GB for model + docs",
+    "CPU": "8+ cores recommended"
+  }
+}
