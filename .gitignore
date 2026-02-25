@@ -11,3 +11,10 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# QA stress test artifacts (runtime-generated, not committed)
+qa_raw_results_*.json
+qa_graded_results.json
+qa_retest_results.json
+qa_final_report.json
+assistant_backup_pre_patch.json
