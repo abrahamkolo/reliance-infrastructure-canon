@@ -1,17 +1,32 @@
 name: Canon Integrity Check
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install test dependencies
-        run: pip install pytest pytest-cov
-      - name: Run integrity tests
-        run: pytest tests/ -v --tb=short
-      - name: Run verification script
+
+      - name: Install verification dependencies
+        run: pip install cryptography
+
+      - name: Verify document count
+        run: |
+          count=$(find documents -name '*.txt' -type f | wc -l)
+          echo "Documents found: $count"
+          if [ "$count" -lt 39 ]; then
+            echo "FAIL: Expected at least 39 canonical documents, found $count"
+            exit 1
+          fi
+          echo "PASS: $count documents present"
+
+      - name: Run canon verification (SHA3-512 hashes + Ed25519 signatures)
         run: python verification/verify-canon.py

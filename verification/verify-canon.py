@@ -144,8 +144,12 @@ def main():
         print("\n  VERDICT: AUTHENTIC")
     else:
         print("\n  VERDICT: INTEGRITY COMPROMISED — DO NOT RELY")
-    
+
     print("=" * 60)
+
+    # Exit with proper code for CI pipelines
+    if not hash_ok or (sig_ok is not None and not sig_ok):
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
